@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="book.xsl"type="text/xsl" ?>
+<!DOCTYPE Booking [
+ <!ELEMENT Booking (name,model,seats,bags,pickupdate,returndate,price)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT model (#PCDATA)>
+ <!ELEMENT seats (#PCDATA)>
+ <!ELEMENT bags (#PCDATA)>
+ <!ELEMENT pickupdate (#PCDATA)>
+ <!ELEMENT returndate (#PCDATA)>
+ <!ELEMENT price (#PCDATA)>
+]>
+
+<Booking>
+ <car>
+   <name>Abcd</name>
+   <model>ytrt</model>
+   <seats>4</seats>
+   <bags>4</bags>
+   <pickupdate>12</pickupdate>
+   <returndate>13</returndate>
+   <price>200</price>
+  </car>
+   <car>
+   <name>pqrt</name>
+   <model>6yyy</model>
+   <seats>4</seats>
+   <bags>4</bags>
+   <pickupdate>7</pickupdate>
+   <returndate>8</returndate>
+   <price>100</price>
+  </car>
+ <car>
+   <name>tqrs</name>
+   <model>ygyg</model>
+   <seats>4</seats>
+   <bags>4</bags>
+   <pickupdate>9</pickupdate>
+   <returndate>10</returndate>
+   <price>250</price>
+  </car>
+</Booking>

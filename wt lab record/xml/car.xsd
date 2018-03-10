@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="Booking">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="model" type="xs:string"/>
+      <xs:element name="seats" type="xs:positiveInteger"/>
+      <xs:element name="bags" type="xs:positiveInteger"/>
+      <xs:element name="pickupdate" type="xs:positiveInteger"/>
+      <xs:element name="returndate" type="xs:positiveInteger"/>
+      <xs:element name="price" type="xs:positiveInteger"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
